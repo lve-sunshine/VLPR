@@ -168,7 +168,7 @@ def train_model(model, criterion, optimizer, num_epochs=5, log_file='loss_log.tx
 整个训练过程将重复执行num_epochs轮（本项目模型5轮），最终得到训练完毕的模型。
 
 ### 5.2 模型训练效果
-最终loss为`0.00035873101609251875`,详细损失变化详见详见`/project/train/loss_log.txt`，可自行可视化损失分析。
+最终loss为`0.00035873101609251875`,详细损失变化详见`/project/train/loss_log.txt`，可自行可视化损失分析。
 
 ### 5.3 测试函数
 ```python
