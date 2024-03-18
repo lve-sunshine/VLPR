@@ -23,7 +23,7 @@ data_transform = transforms.Compose([
 
 ### 2.2 数据集加载
 ```python
-from torchvision datasets
+from torchvision import datasets
 # 加载数据集
 dataset = datasets.ImageFolder(root='../../train', transform=data_transform)
 data_loader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=True)
