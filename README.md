@@ -254,7 +254,7 @@ with torch.no_grad():
 训练过程loss变化如下：
 ![NAH$9IPI$1DH 2HL RNRICB](https://github.com/lve-sunshine/VLPR/assets/99074010/0b040e54-1d6b-4553-96d6-618208b5d3b5)
 
-使用sklearn对dataset进行二八分割为训练集与测试机后，测试集验证准确率为97.18%，说明模型good fit。
+使用sklearn对dataset进行八二分割为训练集与测试集后，在测试集中验证准确率为97.18%，说明模型是good fit。
 ```python
 # 加载数据集
 dataset = datasets.ImageFolder(root='../../train', transform=data_transform)
